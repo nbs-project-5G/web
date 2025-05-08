@@ -1,7 +1,3 @@
-// Funcionalidad para las preguntas frecuentes (FAQ)
-document.querySelectorAll('.faq-question').forEach(button => {
-  button.addEventListener('click', () => {
-    const answer = button.nextElementSibling;
-    answer.style.display = (answer.style.display === 'block') ? 'none' : 'block';
-  });
-});
+function showFact() {
+  alert("Did you know? 5G can be up to 100 times faster than 4G!");
+}
